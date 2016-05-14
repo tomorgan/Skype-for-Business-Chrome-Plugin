@@ -2,7 +2,7 @@
   "name": "Skype for Business Click to Call",
   "short_name": "Skype for Business Click to Call",
   "description": "Easily call any number in Skype for Business",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "permissions": ["contextMenus","activeTab"],
   "author": "Tom Morgan",
   "homepage_url": "http://thoughtstuff.co.uk",
