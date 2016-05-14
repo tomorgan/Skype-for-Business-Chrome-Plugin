@@ -16,7 +16,7 @@ function onClickHandler(info, tab) {
 	   code: 'if (document.contains(document.getElementById("ThoughtStuffSfBpluginlink"))) {            document.getElementById("ThoughtStuffSfBpluginlink").remove();}'});
   
 chrome.tabs.executeScript({ 			
-		 code: 'var a = document.createElement("a");var linkText = document.createTextNode("AAAA");a.appendChild(linkText);a.title = "my title text";a.href ="tel://' + info.selectionText + '";a.id = "ThoughtStuffSfBpluginlink";document.body.appendChild(a);  document.getElementById("ThoughtStuffSfBpluginlink").click();'}); 
+		 code: 'var a = document.createElement("a");var linkText = document.createTextNode("");a.appendChild(linkText);a.title = "my title text";a.href ="tel:' + info.selectionText + '";a.id = "ThoughtStuffSfBpluginlink";document.body.appendChild(a);  document.getElementById("ThoughtStuffSfBpluginlink").click();'}); 
 		 
 		  chrome.tabs.executeScript ({
 	   code: 'if (document.contains(document.getElementById("ThoughtStuffSfBpluginlink"))) {            document.getElementById("ThoughtStuffSfBpluginlink").remove();}'});
